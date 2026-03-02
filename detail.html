@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Pokemon</title>
+    <!-- Normalize CSS -->
+            <link rel="stylesheet" href="/assets/css/pokemon.css">
+    </head>
+    <body>
+        <section class="content">
+            <div class="details">
+                    <h1 class="pokemonTitle">Bulbasaur</h1>
+                    <span class="pokemonNumber">#001</span>
+            </div>
+                    <ol class="types">
+                        <li class="type">Grass</li>
+                        <li class="type">Poison</li>
+                    </ol>
+               <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" 
+                    alt="${pokemon.name}">
+            <div class="lower">
+                <ul class="menu">
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">STATUS</a></li>
+                    <li><a href="#">EVOLUÇÃO</a></li>
+                    <li><a href="#">ATAQUES</a></li>
+                    </ul>
+                <hr >
+                <div class="moreInfo">     
+                    <ul class="topInformation">
+                            <li>Espécie</li>
+                            <li>Altura</li>
+                            <li>Peso</li>
+                            <li>Habilidades</li>
+                    </ul>
+                    <ul class="deepInformation">
+                            <li id="pokemonSpecies">Semente Pokémon</li>
+                            <li id="pokemonHeight">0.7 m</li>
+                            <li id="pokemonWeight">6.9 kg</li>
+                            <li id="pokemonAbilities">Overgrow, Chlorophyll</li>
+                    </ul>
+                </div>
+
+                <ul class="division">
+                        <li>Criação</li>
+                    </ul>
+
+                <div class="lowerInfo">
+                    <ul class="additionalHeaders">
+                            <li>Gênero</li>
+                            <li>Grupo de ovos</li>
+                            <li>Ciclo do ovo</li>
+                    </ul>
+                    <ul class="addtionalInfo">
+                            <li><img src="/assets/male.png"> 87.5% <img src="/assets/female.png"> 12.5%</li>
+                            <li>Monstro</li>
+                            <li id="eggCycle"></li>
+                </div>
+            </div>
+        </section>
+        <!-- Javascript -->
+        <script src="/assets/js/poke-api.js"></script>
+        <script src="/assets/js/pokemonModel.js"></script>
+        <script src="/assets/js/information.js"></script>
+    </body>
+</html>
