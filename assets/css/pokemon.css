@@ -105,7 +105,7 @@ body{
 
 .menu li a.active {
   color: #000;                      
-  border-bottom: 20px solid #000;    
+  border-bottom: 1px solid #000;    
 }
 .menu li a:hover {
   color: #555;
