@@ -9,7 +9,7 @@ Este projeto é uma enciclopédia virtual de Pokémon que consome dados da **Pok
 Para ilustrar o tema de Pokedex, abaixo está uma imagem de capa com diversos Pokémon da primeira geração, a qual este projeto se dedica a listar.
 
 <div align="center">
-  <img src="image_6.png" width="80%" alt="Capa Pokedex com Pokémon">
+  <img src="/assets/pokedex.png" width="80%" alt="Capa Pokedex com Pokémon">
 </div>
 
 ---
@@ -20,15 +20,23 @@ Este projeto foi desenvolvido como um **desafio de projeto** prático dentro da 
 
 ## Screenshots da Aplicação
 
-Confira abaixo as capturas de tela mostrando a interface da nossa Pokedex:
-
 <div align="center">
-  <img src="image_078167.png" width="45%" alt="Listagem da Pokedex">
-  <img src="image_077e98.png" width="45%" alt="Detalhes do Pokemon">
+  <img src="./assets/capa_pokedex.png" width="80%" alt="Listagem da Pokedex">
+  <br>
+  <em>Interface principal com listagem dinâmica e tema personalizado.</em>
 </div>
 
-*Visualização completa da listagem na interface principal.*
-*Visualização detalhada do Pokémon selecionado na div de 40%.*
+<br>
+
+### Temas Adaptativos por Tipo
+
+| 🌿 Grama | 🔥 Fogo | 💧 Água | ⚡ Elétrico |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/detail_grass.jpeg" width="180px" alt="Tipo Grama"> | <img src="./assets/detail_fire.jpeg" width="180px" alt="Tipo Fogo"> | <img src="./assets/detail_water.jpeg" width="180px" alt="Tipo Água"> | <img src="./assets/detail_eletric.jpeg" width="180px" alt="Tipo Elétrico"> |
+<div align="center">
+  <br>
+  <em>Exemplos da interface adaptativa baseada no elemento principal do Pokémon.</em>
+</div>
 
 ---
 
