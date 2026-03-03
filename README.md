@@ -9,7 +9,7 @@ Este projeto é uma enciclopédia virtual de Pokémon que consome dados da **Pok
 Para ilustrar o tema de Pokedex, abaixo está uma imagem de capa com diversos Pokémon da primeira geração, a qual este projeto se dedica a listar.
 
 <div align="center">
-  <img src="/assets/pokedex.png" width="80%" alt="Capa Pokedex com Pokémon">
+  <img src="./assets/pokedex.jpg" width="40%" alt="Capa Pokedex com Pokémon">
 </div>
 
 ---
@@ -21,7 +21,7 @@ Este projeto foi desenvolvido como um **desafio de projeto** prático dentro da 
 ## Screenshots da Aplicação
 
 <div align="center">
-  <img src="./assets/capa_pokedex.png" width="80%" alt="Listagem da Pokedex">
+  <img src="./assets/capa_pokedex.png" width="40%" alt="Listagem da Pokedex">
   <br>
   <em>Interface principal com listagem dinâmica e tema personalizado.</em>
 </div>
